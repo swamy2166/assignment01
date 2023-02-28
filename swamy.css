@@ -1,0 +1,132 @@
+body{
+    margin: 0px;
+    font-family: "poppins",sans-serif;
+    text-align: justify;
+    background-color: #fff;
+    padding: 1px;
+}
+button{
+    cursor: pointer;
+}
+header{
+    display: flex;
+    margin: 0 20px 40px;
+}
+.logo > img {
+    height: 50px;
+    left: 0;
+}
+.nav {
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav > span {
+    margin: 30px;
+    color: #bcbbb9;
+}
+.nav > span:hover {
+    color: #FE5D20;
+    text-decoration: underline #8071D0 solid 3px;
+}
+.button > button {
+    border: none;
+    background-color:  #ffd8db;
+    color:  #A389CC;
+    padding: 20px 30px;
+    border-radius: 25px;
+}
+.button {
+    right: 0;
+}
+main{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-between;
+}
+.swamy > h1{
+    font-size: 70px;
+    margin-bottom: 5px;
+}
+.dot{
+    font-size: 30px;
+    color: blue;
+}
+.account{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.account > button{
+    border: none;
+    color: #ffffff;
+    background-color: #5243C0;
+    padding: 20px 30px 20px 30px;
+    border-radius: 30px;
+}
+.icon{
+    display: flex;
+    font-size: 15px;
+    padding: 6px;
+    border-radius: 15px;
+    margin-bottom: 12px;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+}
+.icon:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    box-shadow: 6px 12px rgba(230,230,230,1);
+}
+.icon-text{
+    white-space: nowrap;
+    font-weight: bold;
+    width: 40%;
+}
+.icon-date{
+    color: #c3c3c3;
+}
+.icon-image{
+    height: 40px;
+    width: 40px;
+}
+.icon-checkbox{
+    height: 40px;
+    width: 40px;
+}
+.aside{
+    position: fixed;
+}
+.strike-1{
+    width: 22px;
+    height: 10px;
+    background: #FED7DA;
+    border-radius: 100px;
+    margin-top: 16px; 
+}
+.strike-2{
+    width: 22px;
+    height: 10px;
+    background: #FD6534;
+    border-radius: 100px;
+    margin-top: 16px; 
+}
+.strike-3{
+    width: 22px;
+    height: 10px;
+    background: #9ED095;
+    border-radius: 100px;
+    margin-top: 16px; 
+}
+.strike-4{
+    width: 22px;
+    height: 10px;
+    background: #FFE4A0;
+    border-radius: 100px;
+    margin-top: 16px; 
+}
